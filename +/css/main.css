@@ -1,0 +1,92 @@
+
+nav .container a{
+    color: #fff;
+    
+  }
+  
+  nav .container a:hover{
+    color: #fff;
+  }
+  
+  nav .container .active{
+    color: #fff !important;
+  }
+  
+  
+  nav .container .nav-link{
+    position: relative;
+  }
+  
+  nav .container .nav-link::before{
+    content: '';
+    width:0;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    background-color: #fff;
+    transition: 0.4s;
+  
+  }
+  
+  nav .container .nav-link:hover::before{
+  width: 80%;
+  }
+  
+  nav .container .active::before{
+    
+    width:80%;
+  }
+  
+  nav .container .dropdown-menu a{
+    color: black;
+  }
+  
+#icn {
+    background:linear-gradient(#0077ff9d,#0077ff69) ,url(../img/overlay-bg.jpg) center;
+    background-size: cover ;
+      background-attachment: fixed;
+
+    
+ }  
+ #icn .container{
+    min-height: 60vh;
+ }
+ #icn .container .caption h1{
+    font-size: 4rem;
+ }
+
+ #icn .container .caption span{
+    color: #CDE1F8;
+ }
+
+ #section {
+    background-color: #f5f5f5;
+    border: #ffffff00 solid 1px;
+ }
+
+ #section .container .carousel .btn{
+
+    width: 13px;
+    height: 13px;
+    border: #0062D3 solid 1px;
+    background-color: #ffffff00;
+    border-radius: 50%;
+ }
+ #section .container .carousel .btn:hover{
+    background-color: #0062D3 !important;
+ }
+
+ #section .container .sec-text{
+    background-color: #fff;
+ }
+
+ #section .container .sec-text span{
+    color: #4E4E4E ;
+ }
+
+ #section .footer{
+    background-color: #0062D3;
+    color: #fff;
+ }
+ 
